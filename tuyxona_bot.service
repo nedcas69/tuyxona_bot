@@ -1,0 +1,8 @@
+[Unit]
+Description=Telegram bot Baht uyi
+
+[Service]
+ExecStart=/home/abduw/telegrambot/tuyxona_bot/tuyxona_env/bin/python  /home/abduw/telegrambot/tuyxona_bot/app.py
+
+[Install]
+WantedBy=multi-user.target
